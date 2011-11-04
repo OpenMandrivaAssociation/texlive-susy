@@ -43,6 +43,7 @@ The package provides abbreviations of longer expressions.
 %{_texmfdistdir}/tex/latex/susy/susy.sty
 %doc %{_texmfdistdir}/doc/latex/susy/README
 %doc %{_texmfdistdir}/doc/latex/susy/README.TEXLIVE
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +54,5 @@ The package provides abbreviations of longer expressions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
