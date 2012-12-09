@@ -44,3 +44,17 @@ The package provides abbreviations of longer expressions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080823-2
++ Revision: 756356
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080823-1
++ Revision: 719614
+- texlive-susy
+- texlive-susy
+- texlive-susy
+- texlive-susy
+
