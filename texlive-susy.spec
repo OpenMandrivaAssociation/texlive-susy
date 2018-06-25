@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-susy
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Macros for SuperSymmetry-related work
 Group:		Publishing
