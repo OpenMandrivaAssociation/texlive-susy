@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-susy
-Version:	20180303
-Release:	3
+Version:	20190228
+Release:	1
 Summary:	Macros for SuperSymmetry-related work
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/susy
