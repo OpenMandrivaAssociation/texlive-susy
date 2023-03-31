@@ -1,6 +1,6 @@
 Name:		texlive-susy
 Version:	19440
-Release:	1
+Release:	2
 Summary:	Macros for SuperSymmetry-related work
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/susy
